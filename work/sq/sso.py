@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 import pandas as pd 
 import csv
+import pickdle
 
 USER ='b1021204'
 PASS = 'EPa6ouQ2'
@@ -31,6 +32,9 @@ browser_form = browser.find_element(By.CSS_SELECTOR, "credentials_input_submit")
 elem_username.send_keys(USER)
 elem_username.Send_keys(PASS)
 browser_from.click()
+
+cookies = driver.get_cookies() # クッキーを取得する
+pickle.dump(cookies,open(cookies_file,'wb')) # クッキーを保存する
 print("ログイン成功です!")
 print("\n\n")
 '''
