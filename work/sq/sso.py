@@ -5,6 +5,7 @@ from selenium import webdriver
 import pandas as pd 
 import csv
 import pickle
+import time
 
 USER ='b1021204'
 PASS = 'EPa6ouQ2'
@@ -41,10 +42,21 @@ pickle.dump(cookies,open(cookies_file,'wb')) # クッキーを保存する
 '''
 print("ログイン成功です!")
 print("\n\n")
+time.sleep(5)
+elem_vm = browser.find_element(By.ID, "/Common/Manage_P")
+elem_vm.click()
+time.sleep(5)
+browser.switch_to.window(browser.window_handles[1])
+elem_select = browser.find_element(By.XPATH, "/html/body/div/div/main/div/form/div[2]/div/span")
+elem_select.click()
+time.sleep(5)
+
+
 #取得したい文字列の要素
 elm = browser.find_element(By.CLASS_NAME, "webtop2")
 # 要素のテキスト内容を取得
 num = [elm.text]
+print(elm)
 header = [""]
 df = pd.DataFrame({
     '成果':num
