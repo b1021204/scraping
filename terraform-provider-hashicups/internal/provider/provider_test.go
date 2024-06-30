@@ -10,6 +10,22 @@ import (
 	"github.com/hashicorp/terraform-plugin-go/tfprotov6"
 )
 
+const (
+	/*
+	 providerConfig is a shared configuration to combine with the actual
+	 test configutration so the HashiCups client is properly configured.
+	 It is also prssible to use the HASHICPUS_ enviroment variables instead,
+	 such as updating the Makefile and running the testing throught that tool
+	*/
+	providerConfig = `
+	provider "hashicups" {
+		username = "education"
+		password = "test123"
+		host = "http://localhost:19090"
+	}
+	`
+)
+
 // testAccProtoV6ProviderFactories are used to instantiate a provider during
 // acceptance testing. The factory function will be invoked for every Terraform
 // CLI command executed to create a provider server to which the CLI can
