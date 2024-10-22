@@ -1,0 +1,14 @@
+# Fdb version 4
+["dvipdf"] 0 "latex_out/main.dvi" "latex_out/main.pdf" "latex_out/main" 0 -1
+  "latex_out/main.dvi" 0 -1 0 "latex"
+  (generated)
+  "latex_out/main.pdf"
+  (rewritten before read)
+["latex"] 0 "/Users/nsysk_0101/univ/b4/2024_mid_rejume/main.tex" "latex_out/main.dvi" "main" 0 -1
+  "/Users/nsysk_0101/univ/b4/2024_mid_rejume/main.tex" 0 -1 0 ""
+  "latex_out/main.aux" 0 -1 0 "latex"
+  (generated)
+  "latex_out/main.aux"
+  "latex_out/main.dvi"
+  "latex_out/main.log"
+  (rewritten before read)
