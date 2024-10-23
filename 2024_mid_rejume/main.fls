@@ -61,13 +61,21 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT main.dvi
-INPUT ./src/selenium.png
-INPUT ./src/selenium.png
-INPUT ./src/selenium.png
-INPUT extractbb -B cropbox -O ./src/selenium.png
-INPUT ./src/timetable.png
-INPUT ./src/timetable.png
-INPUT ./src/timetable.png
-INPUT extractbb -B cropbox -O ./src/timetable.png
+INPUT ./images/terraform.png
+INPUT ./images/terraform.png
+INPUT ./images/terraform.png
+INPUT extractbb -B cropbox -O ./images/terraform.png
+INPUT ./images/cloud.png
+INPUT ./images/cloud.png
+INPUT ./images/cloud.png
+INPUT extractbb -B cropbox -O ./images/cloud.png
+INPUT ./images/scraping.png
+INPUT ./images/scraping.png
+INPUT ./images/scraping.png
+INPUT extractbb -B cropbox -O ./images/scraping.png
+INPUT ./images/machine.png
+INPUT ./images/machine.png
+INPUT ./images/machine.png
+INPUT extractbb -B cropbox -O ./images/machine.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT main.aux

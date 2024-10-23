@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 0 "main.dvi" "main.pdf" "main" 0 -1
-  "main.dvi" 1729509086.29588 26760 3b1099009b8c06d351298feed67c6084 "latex"
+["dvipdf"] 1729670251.5272 "main.dvi" "main.pdf" "main" 1729670253.24007 0
+  "main.dvi" 1729670225.78915 26940 00d36ec9e7d96a6b460ba84187bcd77c "latex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["latex"] 1729509084.25628 "main.tex" "main.dvi" "main" 1729509086.31796 2
+["latex"] 1729670223.00389 "main.tex" "main.dvi" "main" 1729670253.23966 2
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1463434352 1196 1be730212205a270378fba11a44765dc ""
@@ -35,13 +35,15 @@
   "/usr/local/texlive/2024/texmf-dist/tex/uplatex/base/ujarticle.cls" 1601501193 25756 696812db1093637a703931ccf3d2e037 ""
   "/usr/local/texlive/2024/texmf-dist/tex/uplatex/base/ujsize11.clo" 1601501193 8671 38ae6650cc4f672ed2eb94ee1d40ee3d ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
-  "/usr/local/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1729073044 3218812 9c21d35aea95fd4169e5d0d9695141cb ""
+  "/usr/local/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1729670192 3218975 6aeb21d341518ab23378d0f8c0b9d89f ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "funinfosys.sty" 1698901170 7325 6363025a20801f7d49df4e60819d7090 ""
-  "main.aux" 1729509086.29514 1362 5244498c6ccce5eda18a55e66b8475d5 "latex"
-  "main.tex" 1729509028.03846 17340 37603a5995d6076fec860b9674ba3c82 ""
-  "src/selenium.png" 1698901170 320199 b2f149c09d0bcd22cd4a089def787788 ""
-  "src/timetable.png" 1698901170 171905 127d802a1c804ac0d63a65e981476444 ""
+  "images/cloud.png" 1729583880.33055 242361 ee74576e14d8d350381afda572355a2f ""
+  "images/machine.png" 1729664959.9602 140762 23e17f119d7909d1d77bffb742867efd ""
+  "images/scraping.png" 1729588070.7864 424918 023ea303600885619668d188a7bee03e ""
+  "images/terraform.png" 1729582395.20703 48270 38702295843caf6a938bdbe8640dc6c3 ""
+  "main.aux" 1729670225.78861 1673 0af0c64331f68e7cdec20c6273688d61 "latex"
+  "main.tex" 1729669743.13809 17412 6bb82e90f826af2917e90ab919bda7ba ""
   (generated)
   "main.aux"
   "main.dvi"
